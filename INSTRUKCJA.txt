@@ -1,0 +1,24 @@
+KALENDARZ KARINY — STRONA INFORMACYJNA
+
+Konto: wakarinajaworek-ops
+Repozytorium: wakarinajaworek-ops.github.io (Public)
+
+1. Utwórz repozytorium o powyższej nazwie, w planie GitHub Free.
+2. Wgraj pliki index.html, privacy.html, terms.html, style.css i .nojekyll do głównego folderu repozytorium. Wgrywaj pliki po rozpakowaniu, nie ten ZIP.
+3. Settings > Pages > Build and deployment: Deploy from a branch, branch main, folder /(root), Save.
+4. Poczekaj na poprawne wdrożenie. Docelowy adres (nieaktywny, dopóki nie opublikujesz): https://wakarinajaworek-ops.github.io/
+5. Sprawdź stronę główną, privacy.html oraz terms.html. Przed publikacją sprawdź i zaakceptuj teksty. Publiczny będzie opis aplikacji oraz kontakt, bez danych poczty i kalendarza.
+
+GOOGLE CLOUD — PO PUBLIKACJI I WERYFIKACJI ADRESU
+Homepage: https://wakarinajaworek-ops.github.io/
+Privacy policy: https://wakarinajaworek-ops.github.io/privacy.html
+Terms: https://wakarinajaworek-ops.github.io/terms.html
+Authorized domain: wakarinajaworek-ops.github.io
+
+Jeśli Google wymaga potwierdzenia własności: w Google Search Console dodaj usługę typu URL prefix dla https://wakarinajaworek-ops.github.io/. Wybierz weryfikację plikiem HTML, pobierz plik i wgraj go bez zmian do głównego folderu tego repozytorium. Po wdrożeniu wróć i kliknij Verify. Nie publikuj plików JSON OAuth, tokenów, haseł, maili ani prywatnej bazy programu.
+
+W Data Access programu potrzebne są DWA zakresy:
+https://www.googleapis.com/auth/calendar.events
+https://www.googleapis.com/auth/calendar.calendarlist.readonly
+
+Nie potwierdzono jeszcze publikacji strony ani akceptacji Google. Strona informacyjna nie uruchamia synchronizacji — program wymaga osobnego podłączenia na Windows.
